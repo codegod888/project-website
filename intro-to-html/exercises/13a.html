@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .flex-box {
+        display: flex;
+        flex-direction: row;
+        height: 50px;
+      }
+
+      .left-section {
+        background-color: lightpink;
+        width: 100px;
+      }
+
+      .right-section {
+        background-color: lightblue;
+        width: 200px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+
+      .row2 {
+        background-color: black;
+        color: white;
+      }
+
+      .inner-right-section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex-box">
+      <div class="left-section"></div>
+      <div class="right-section">
+        <div class="inner-left-section">
+          <div>row1</div>
+          <div class="row2">row2</div>
+        </div>
+        <div class="inner-right-section">
+          <div class="row2">row2</div>
+        </div>
+      </div>
+    </div>
+    
+  </body>
+</html>

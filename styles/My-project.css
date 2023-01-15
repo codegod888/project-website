@@ -1,0 +1,57 @@
+  p {
+    font-family: Montserrat;
+
+    }
+
+  .connect-button {
+    background-color: white;
+    font-weight: bold;
+    cursor: pointer;
+
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 16px;
+    padding-left: 16px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+
+    transition: background-color 0.15s,
+      border-width 0,15s,
+      color 0.15s;
+  }
+
+  .connect-button:hover {
+    background-color: rgba(128, 128, 128, 0.303);
+    
+  }
+
+  .connect-button:active {
+    background-color: black;
+    color: white;
+  }
+
+  .brand {
+    font-weight: bold;
+    font-size: large;
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 30px;
+  }
+
+  .roadmap-title {
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: underline;
+  }
+
+  .roadmap-subtitle,
+  .roadmap-subsubtitle {
+    font-weight: bold;
+  }
+
+  .roadmap-description {
+    width: 500px;
+  }
+
+  .thumbnail-brand {
+    width: 80px;
+  }

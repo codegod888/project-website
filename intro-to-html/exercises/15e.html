@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .container {
+        position: relative;
+        display: inline-block;
+      }
+
+      .hoodie {
+        height: 300px;
+      }
+
+      .discount {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+
+        background-color: black;
+        color: white;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+
+      .blur {
+        position: absolute;
+        background-color: rgba(215, 23, 23, 0.846);
+        right: 0;
+        left: 0;
+        bottom: 0;
+        height: 100px;
+        z-index: 1;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .add-cart-button {
+        position: absolute;
+
+      }
+    </style>
+  </head>
+  <body style="background-color: gray;">
+    <div class="container">
+      <img class="hoodie" src="thumbnail/Small-713677TNVD91070_F.jpg">
+      <div class="discount">20% OFF</div>
+      <div class="blur">
+        <button class="add-cart-button">Add to Cart</button>
+      </div>
+    </div>
+  </body>
+</html>

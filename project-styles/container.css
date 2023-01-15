@@ -1,0 +1,190 @@
+.common-container {
+  margin: 75px 15% 0 15%;
+  min-width: 800px;
+}
+
+.cover-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 48px;
+}
+
+.cover {
+  width: 100%;
+}
+
+.content-container {
+  width: 100%;
+}
+
+.introduction-container {
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 48px;
+}
+
+.introduction-left-section {
+  flex: 2;
+}
+
+.title {
+  font-weight: 900;
+  font-size: 28.8px;
+  font-style: italic;
+  line-height: 34px;
+
+  margin-bottom: 16px;
+}
+
+.content {
+  text-align: justify;
+  line-height: 25px;
+  font-size: 16px;
+  width: 100%;
+
+  margin-bottom: 48px;
+}
+
+.introduction-right-section {
+  margin-left: 0;
+  padding-left: 2%;
+  flex: 1;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.introduction-thumbnail {
+  width: 45%;
+  padding: 0 0 5% 5%;
+}
+
+.line {
+  border: 0;
+  border-top: 0.1px solid gray;
+  width: 100%;
+
+  margin-bottom: 48px;
+}
+
+.membership-container {
+  margin-bottom: 48px;
+}
+
+.membership-roadmap-introduction {
+  display: flex;
+}
+
+.membership-roadmap-introduction-container {
+  flex-basis: 66.66%;
+}
+
+.membership-icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.membership-icon {
+  width: 18%;
+  padding: 0 1%;
+}
+
+.membership-icon-container {
+  width: 187px;
+  height: 175px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.membership-icons-thumbnails {
+  width: 100px;
+}
+
+.membership-icons-explain {
+  font-size: 12.8px;
+  width: 157px;
+  text-align: center;
+  line-height: 19px;
+}
+
+.roadmap-container {
+  margin-bottom: 48px;
+}
+
+.roadmap-percentage-container {
+  width: 100%;
+}
+
+.roadmap-percentage-container-inner {
+  display: flex;
+}
+
+.roadmap-percentage {
+  flex-basis: 70%;
+}
+
+.roadmap-percentage-explaination {
+  display: flex;
+}
+
+.percentage {
+  width: 90px;
+  height: 50px;
+  color: rgb(191, 197, 0);
+  padding-left: 23px;
+}
+
+.percentage-explain {
+  flex: 1;
+  font-size: 12.8px;
+  text-align: justify;
+}
+
+.team-content {
+  text-align: justify;
+  line-height: 25px;
+  font-size: 16px;
+  width: 100%;
+
+  margin-bottom: 24px;
+}
+
+.team-member {
+  margin-bottom: 16px;
+  font-style: italic;
+}
+
+.team-name {
+  color: rgb(191, 197, 0);
+}
+
+.footer-line {
+  border: 0;
+  border-top: 0.1px solid gray;
+  width: 1092px;
+
+  margin-bottom: 24px;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.footer-right-container {
+  display: flex;
+  align-items: center;
+}
+
+.footer-social-link {
+  padding: 20px 0 10px 10px;
+}
+.footer-mark {
+  font-size: 12px;
+}

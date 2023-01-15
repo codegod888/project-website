@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .sidebar-main {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        top: 0;
+        width: 50px;
+
+        background-color: black;
+        padding-top: 10px;
+      }
+
+      .channel-1,
+      .channel-2,
+      .channel-3 {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        margin-bottom: 5px;
+      }
+
+      .sidebar-sub {
+        position: fixed;
+        left: 50px;
+        bottom: 0;
+        top: 0;
+        width: 150px;
+
+        background-color: rgba(0, 0, 0, 0.8);
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+
+      .sidebar-sub-title {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .sidebar-sub-title-info {
+        color: white;
+        font-weight: bold;
+      }
+
+      .sidebar-sub-title-button {
+        width: 40px;
+        height: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="sidebar-main">
+      <img class="channel-1" src="thumbnail/13.PNG">
+      <img class="channel-2" src="thumbnail/315.png">
+      <img class="channel-3" src="thumbnail/35.png">
+    </div>
+
+    <div class="sidebar-sub">
+      <div class="sidebar-sub-title">
+        <div class="sidebar-sub-title-info">INFO</div>
+        <img class="sidebar-sub-title-button" src="icons/hamburger-menu.svg">
+      </div>
+      <div># new-videos</div>
+      <div># updates</div>
+      <div># faq</div>
+    </div>
+  </body>
+</html>
